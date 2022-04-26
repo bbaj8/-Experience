@@ -27,16 +27,15 @@
    ],
   "repository": "https://github.com/",
   "env": {
-    "ايدي مطور": {
+    "id": {
       "description": "Don't change ANYTHING.",
       "required": true,
       "value": "ANYTHING"
     },
-    "توكن": {
+    "tokn": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
       "value": ""
-    },
     }
   }
 }
