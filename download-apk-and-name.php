@@ -1,6 +1,6 @@
 <?php
 
-$token = "'tokn'";
+$token = ""tokn"";
 define('API_KEY',$token);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
             function bot($method,$datas=[]){
@@ -171,7 +171,7 @@ $get = json_decode(file_get_contents("https://abod-bot.aba.vg/apps.php?token=" .
 mkdir("data");
 $carlos = json_decode(file_get_contents("data/bot.json"),true);
 #--------(carlos)--------#
-$sudo = "'id'";
+$sudo = ""id"";
 $malke = $carlos['malk'];
 if(!$malke){$malkei = "$sudo";}
 elseif($malke){$malkei = "$malke";}
